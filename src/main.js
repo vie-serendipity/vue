@@ -14,7 +14,7 @@ router.beforeEach((to, from, next) => {
     next({name: 'hello'})
   }
 })
-
+console.log(__dirname)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
